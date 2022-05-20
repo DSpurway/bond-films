@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    def Bond_Film_Quick_List(soup)
+    def Bond_Film_Quick_List
     global Bond_Film_Date_List
     url = "https://www.pocket-lint.com/tv/news/148096-james-bond-007-best-movie-viewing-order-chronological-release"
     html = urlopen(url)

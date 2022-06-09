@@ -29,7 +29,7 @@ def list():
         if Actresses_List.count(Result) == 0:
             Actresses_List.append(Result)    
         
-    return Actresses_List
+    return json.dumps(Actresses_List)
 
 @app.route('/healthz')
 # Added healthcheck endpoint
